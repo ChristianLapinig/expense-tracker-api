@@ -1,0 +1,10 @@
+services:
+  app:
+    image: expense-tracker-api
+    container_name: expense-tracker-api
+    build:
+      context: .
+      target: release
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"

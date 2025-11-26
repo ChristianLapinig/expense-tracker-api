@@ -10,7 +10,7 @@ export default function createApp() {
 	app.get("/api/hello", (req: Request, res: Response) => {
 		res.json({
 			name: "Expense Tracker API",
-			description: "API for tracking personal expenses.",
+			description: "Personal expense tracker API",
 			version: "1.0.0",
 		});
 	});
